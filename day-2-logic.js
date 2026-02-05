@@ -27,7 +27,7 @@ let end_result = 0;
 
 for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] % 2 == 1) {
-        result.push(numbers[i]++);
+        result.push(numbers[i]);
     }
 }
 
